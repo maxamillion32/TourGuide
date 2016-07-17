@@ -86,4 +86,5 @@ public class DetailFragment extends Fragment {
             startActivity(intent);
         }
     }
+
 }
