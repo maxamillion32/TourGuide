@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#03a9f4</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#0288d1</color>
+
+    <!-- Background color for app -->
+    <color name="paleblue_background">#4fc3f7</color>
+
+    <!-- Background color for the eateries category -->
+    <color name="category_eat">#ffc107</color>
+
+    <!-- Background color for the shopping category -->
+    <color name="category_shop">#4db6ac</color>
+
+    <!-- Background color for the visitor attractions category -->
+    <color name="category_visit">#e57373</color>
+
+    <!-- Background color for the nearby cities category -->
+    <color name="category_nearby">#8bc34a</color>
+</resources>

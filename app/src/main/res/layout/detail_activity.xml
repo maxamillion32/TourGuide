@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paleblue_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/primary_color">
+
+            <TextView
+                android:id="@+id/details_title"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                style="@style/detailStyle" />
+
+            <TextView
+                android:id="@+id/details_subtitle"
+                android:layout_marginLeft="8dp"
+                style="@style/detailStyle" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/details_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/details_hours"
+            style="@style/detailStyle2" />
+
+        <TextView
+            android:id="@+id/details_address"
+            style="@style/detailStyle2" />
+
+        <Button
+            android:id="@+id/map_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="Launch Map" />
+
+    </LinearLayout>
+</FrameLayout>
